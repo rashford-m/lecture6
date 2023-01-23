@@ -13,8 +13,8 @@ function App() {
       >
         Show Text
       </button>
+      {showText && <Text />}
     </div>
   );
 }
-
 export default App;
